@@ -4,35 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario</title>
+	<link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
 	<h1>Página para elemtos de formulario</h1>
-	<hr><nav>
+	<hr>
+	      <nav>
        	   <a href="index.html">Inicio</a> 
-       	   <a href="listas.html">litas</a>
+       	   <a href="listas.html">listas</a>
        	    <a href="imagenes.html">Galeria</a>
        	    <a href="tablas.html">Usuario</a> 
        	    <a href="Formulario.html">Login</a>
        </nav>
 	<hr>
   <h2>Registrese en la pagina</h2>
-  <form method="POST">
+  <section class="card">
+  	 <form method="POST">
   	<label for="">Nombre:</label>
-  	<input type="text"  id="Nombre" placeholder="Ingrese su nombre" required> 
+  	<input class="in-text" type="text"  id="Nombre" placeholder="Ingrese su nombre" required> 
   	<br>
   	<br>
   	<label for="Correo">Email</label>
-  	<input type="Email" id="Correo" placeholder="ingrese su email">
+  	<input class="in-text" type="Email" id="Correo" placeholder="ingrese su email">
   		<br>
   		<br>
   		<label for="pass">contraseña</label>
-  	<input type="password" id="pass" placeholder="ingrese su contraseña" required>
+  	<input class="in-text" type="password" id="pass" placeholder="ingrese su contraseña" required>
   		<br>
   		<br>
 
-     <input type="submit" value="Guardar">
-     <input type="reset" value="Cancelar">
+     <input class="btn btn-sub" type="submit" value="Guardar">
+     <input class="btn btn-res" type="reset" value="Cancelar">
   </form>
+  </section>
+ 
 
 </body>
 </html>
